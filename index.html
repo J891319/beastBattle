@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="style.css" />	
+  </head>
+
+  <body>
+    <h1>Beast Battle</h1>     	
+    <h2>Level</h2>
+    <h2 id='level'>1</h2>
+    <div class="flex-container">
+      <div class="inner-wrapper">
+        <h2>Player</h2>    		
+        <img src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/06/stegosaurus-24752_640.png">     		
+        <h3 id="player-health-text"> 100 </h3>     		
+        <progress id='player-bar' value='100' max='100'></progress>     	
+        <button onclick='normal()'>Normal Attack</button> 		
+        <button onclick='special()'>Special Attack</button>    		
+      </div>
+
+      <div class="inner-wrapper enemy-wrapper">
+        <h2 id='enemy_name'>Enemy</h2>     		
+        <img id="enemy-pic" src="http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/06/cartoon-1299393_640.png">     		
+        <h3 id="enemy-health-text"> 100 </h3>    		
+        <progress id='enemy-bar' max='100' value='100'></progress>    	
+      </div>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
+</html>          

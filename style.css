@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Acme');
+body {
+  text-align: center;
+  font-family: "Acme";
+  background-image:url('http://bsdacademysandbox.com/curriculum/wp-content/uploads/2017/06/landscape-1844226_1280.png');     
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center; 
+}
+
+#level {
+  font-size: 38px;
+}
+
+h1 {
+  color: #d9d9d9;
+}
+
+h2 {
+  color:#d9d9d9;
+}
+
+p {
+  font-size: 26px;
+}
+
+img {
+  width: 100px;
+}
+
+button {
+  font-size: 18px;
+  display: block;
+  margin: 30px auto;
+}
+
+.flex-container{
+  display: flex;
+}
+
+.inner-wrapper{
+  width: 45%;
+  background-color: rgba(0,0,0,0.6);
+  border-radius: 10%;
+  color: #fff;
+  border: 3px solid white;
+}
+
+.enemy-wrapper {
+  margin-left: auto;
+}
+
+progress {
+  display: block;
+  margin: 0 auto;
+}  
